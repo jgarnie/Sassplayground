@@ -1,0 +1,280 @@
+$fontbasic : 1.5rem;
+$containerwidth:50rem;
+$fonttitle: 3rem;
+$titlecolor: white;
+$fontsubtitle:2.4rem;
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(168, 164, 164);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        font-size: $fontbasic;
+        &:hover{background-color: rgb(83, 81, 81);
+        color: rgb(236, 121, 27);
+        }
+    }
+}
+.container{
+    width: $containerwidth;
+    margin: auto;
+}
+header{
+    background-image: url("/img/welcome.jpg");
+    text-align: center;
+    margin-top: 0;
+    padding:2rem;
+    
+    h1{
+        font-size: $fonttitle ;
+        color:$titlecolor;
+        padding-top: 2rem;
+        margin:0;
+    }
+    h2{
+        font-size: $fontsubtitle;
+    }
+}
+main{ 
+    
+    h2{
+    text-align: center;
+    font-size: $fontsubtitle;
+}
+.flexplot{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 30%;
+    height:100%;
+    img{
+        width: 100%;
+    }
+}
+
+.description{
+   width: 70%;
+   padding: 2rem;
+}
+
+ p{
+   
+    font-size: $fontbasic;
+}
+h3{
+    font-size:1.8rem ;
+    margin-top: 0;
+}
+}
+.flexpictures{
+    display: flex;
+    position: relative;
+    bottom: -20rem;
+    img{
+        border-radius: 50%;
+    }
+}
+.clear{
+    clear: both;
+}
+section{
+    background-image: url("/img/rey-standing.jpg");
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -20px -350px;
+    
+    h2{
+        text-align: center;
+        font-size: $fontsubtitle;
+        padding-top: 3rem;
+    }
+    img:nth-child(4){
+        width: 10rem;
+        height: 10rem;
+    }
+    img:nth-child(3){
+        width: 8.5rem;
+        height:8.5rem;
+    }
+    img:nth-child(5){
+        width: 8.5rem;
+        height:8.5rem;
+    }
+    img:nth-child(6){
+        width: 6.5rem;
+        height:6.5rem;
+    }
+    img:nth-child(7){
+        width: 5.5rem;
+        height:5.5rem;
+    }
+    img:nth-child(2){
+        width: 6.5rem;
+        height:6.5rem;
+    }
+    img:nth-child(1){
+        width: 5.5rem;
+        height:5.5rem;
+    }
+}
+article{
+    height:20rem;
+    text-align: center;
+    padding-top: 2rem;
+h2{
+    font-size: $fontsubtitle;
+}
+}
+.flexrating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.item1{
+    
+    background-color: rgb(140, 141, 140);
+    color: cornsilk;
+    padding: 0;
+    margin: 0; 
+    align-content: flex-end;
+    width: 20%;
+}
+.empty1{
+    background-color: rgb(140, 141, 140);
+    height: 7rem;
+    padding: 0;
+    margin: 0;
+}
+.pitem1{
+    height: 3rem;
+    background-color: rgb(249, 253, 249);
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+.pitem{
+    color: black;
+     padding: 0;
+    margin: 0;
+    background-color:rgb(140, 141, 140);
+}
+.item2{
+    height: 4rem;
+    background-color: rgb(210, 240, 240);
+    color: cornsilk;
+    padding: 0;
+    margin: 0; 
+    align-content: flex-end;
+    width: 20%;
+}
+.empty2{
+    background-color: rgb(140, 141, 140);
+    height: 9rem;
+    padding: 0;
+    margin: 0;
+}
+.pitem2{
+    height: 2rem;
+    background-color: rgb(249, 253, 249);
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+.pitem{
+    color: black;
+     padding: 0;
+    margin: 0;
+    background-color:rgb(140, 141, 140);
+}
+.item3{
+    flex-basis: 20%;
+    background-color: rgb(210, 240, 240);
+    color: cornsilk;
+    padding: 0;
+    margin: 0; 
+    align-content: flex-end;
+    width: 20%;
+}
+.empty3{
+    background-color: rgb(140, 141, 140);
+    height: 8rem;
+    padding: 0;
+    margin: 0;
+}
+.pitem3{
+    height: 2rem;
+    background-color: rgb(249, 253, 249);
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+aside{ 
+    
+    h2{
+    text-align: center;
+    font-size: $fontsubtitle;
+}
+.flexplot{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 30%;
+    height:100%;
+    img{
+        width: 100%;
+    }
+}
+
+.description{
+   width: 70%;
+   padding: 2rem;
+}
+
+ p{
+   
+    font-size: $fontbasic;
+}
+h3{
+    font-size:1.8rem ;
+    margin-top: 0;
+}
+}
+.flexpictures{
+    display: flex;
+    position: relative;
+    bottom: -20rem;
+    img{
+        border-radius: 50%;
+    }
+}
+.flexpictures2{
+    display: flex;
+    justify-content: space-around;
+
+img{
+    margin:0.2rem 0.4rem;
+}
+}
+footer{
+    height:10rem;
+    margin-top: 0;
+    background-image: url("/img/gallery.jpg");
+h2{
+        text-align: center;
+        font-size: 2.2rem;
+        background-color: grey;
+    }
+}
